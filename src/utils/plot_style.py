@@ -1,17 +1,10 @@
-import matplotlib
 import plotly.graph_objects as go
-
-matplotlib.rcParams["pdf.fonttype"] = 42
 
 
 def plotly_scientific_style(fig: go.Figure) -> go.Figure:
     """
-    Nature誌のフィギュア要件に準拠したスタイルを適用します。
+    Style compliant with Nature journal figure requirements
     ref: https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/
-    - Font: Helvetica/Arial, Max size 7pt
-    - No background gridlines
-    - Ticks enabled and facing outside
-    - Width/Height adjusted for high-res single-column fit (approx)
     """
     fig.update_layout(
         template="simple_white",

@@ -35,8 +35,8 @@ if __name__ == "__main__":
     )
 
     fig.update_layout(
-        xaxis_title="Species",
-        yaxis_title="Average Number of Strikes",
+        xaxis_title="個体",
+        yaxis_title="平均ストライク回数",
     )
 
     fig = plotly_scientific_style(fig)
