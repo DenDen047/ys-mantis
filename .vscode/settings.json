@@ -2,7 +2,11 @@
     "default.python": "${workspaceFolder}/.venv/bin/python",
     "cSpell.words": [
         "colormap",
-        "deadsnakes"
+        "deadsnakes",
+        "linecolor",
+        "showline",
+        "ticklen",
+        "tickwidth"
     ],
     "SyncTools.gitignore": false
 }
