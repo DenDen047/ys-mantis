@@ -230,6 +230,5 @@ pyrightconfig.json
 .vscode/sftp.json
 data/*
 !data/README.md
-output/*
 
 sync_config.jsonc
