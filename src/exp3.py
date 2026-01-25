@@ -30,7 +30,6 @@ if __name__ == "__main__":
                 x=labels,
                 y=values,
                 error_y=dict(type="data", array=errors, visible=True),
-                # marker_color="royalblue",
             )
         ]
     )
